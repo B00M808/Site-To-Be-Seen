@@ -1,0 +1,142 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+ body {
+    background-image: url("https://www.tripsavvy.com/thmb/mqrGn2IHJcPiGazRa6E7GG2683w=/800x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Manarola-Liguria-Coast-Italy-Sunset-5b5fcb3b46e0fb00828b35dd.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color:  black;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+  font-size: 30px;
+  margin-top: 30px;
+  text-align: center;
+  padding: 30px;
+  text-decoration: underline;
+}
+
+  h1 {
+    color:cornsilk;
+    font-size: 60px;
+    background-color: cornsilk;
+  }
+
+h5 {
+  margin-left:10px;
+  padding:10px;
+}
+
+
+/* dropdown menu css */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+   
+  }
+
+ 
+  .dropdown {
+  
+    padding: 40px;
+    position: relative;
+    display: inline-block;
+   
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 16px 16px;
+    text-decoration: none;
+    display: block;
+ 
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+  
+  .wrapper{
+    align-items: center;
+    text-align: center;
+  }
+
+/* dropdown menu css */
+
+.main{
+   margin-left: auto;
+    margin-right: auto; 
+   
+    width:40%;
+    background-color: cornsilk;
+} 
+
+.main table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.title h1{
+    color:black;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+  
+    * {
+      box-sizing: border-box;
+    }
+  
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+        body{font-family: 'Montserrat', sans-serif} 
+    
+   
+    .row {
+    display: flex;
+    }
+    
+      .row::after {
+      content: "";
+      clear: both;
+       display: table; 
+      text-align: center; 
+       
+    } 
+
+    .column{
+      margin-right: auto;
+      margin-left: auto;
+      padding: 5px;
+      text-align: center;
+    }
+
+
+    
+
+
